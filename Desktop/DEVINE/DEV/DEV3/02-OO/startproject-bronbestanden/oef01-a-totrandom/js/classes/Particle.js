@@ -6,7 +6,13 @@ export default class Particle {
 	this.velocity = new Vector(0, 0);
 	this.acceleration = new Vector(0, 0.05);
 	this.lifespan = 100;
+	
   }
+  
+	get isAlive() {
+		return this.lifespan > 0;
+	}
+
   draw(ctx) {
 	this.velocity.add(this.acceleration);
 	this.location.add(this.velocity);

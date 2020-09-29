@@ -26,6 +26,9 @@ const draw = () => {
 
   // Elke 60fps uitvoeren
   window.requestAnimationFrame(draw);
+
+  particles = particles.filter(particle => particle.isAlive);
+  console.log(particles.length);
 }
 
 init();
