@@ -1,5 +1,6 @@
 import Vector from './classes/Vector.js';
 import Particle from './classes/Particle.js';
+import { AMOUNT_OF_PARTICLES } from './functions/lib.js'
 
 const $canvas = document.querySelector(`.canvas`),
   ctx = $canvas.getContext(`2d`),
@@ -7,6 +8,7 @@ const $canvas = document.querySelector(`.canvas`),
 let particles = [];
 
 const init = () => {
+  console.log(AMOUNT_OF_PARTICLES);
   $canvas.addEventListener(`mousemove`, mousemove);
   draw();
 };
