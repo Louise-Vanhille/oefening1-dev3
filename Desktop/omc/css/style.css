@@ -1,0 +1,107 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", Arial, sans-serif;
+  min-height: 100vh;
+  background-color: black;
+}
+
+/*BACKGROUNDS*/
+.blue {
+  background-color: #2E3A88;
+}
+
+.red {
+  background-color: #EF7850;
+}
+
+.yellow {
+  background-color: #F6C857;
+}
+
+.black {
+  background-color: black;
+}
+
+/*HOME*/
+.container {
+  display: grid;
+  grid-template-columns: 250px 250px 250px 250px;
+  grid-template-rows: 250px 250px 200px 250px; 
+  grid-gap: 0rem;
+  margin: 0rem 22rem;
+}
+
+.item {
+  position: relative;
+  overflow: hidden;
+  padding: 16px;
+}
+
+.halloween {
+  color: orange;
+  grid-column: 1 / span 4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 5rem;
+  text-transform: capitalize;
+}
+
+.subtitle {
+  font-size: 2rem;
+  padding-top: 1rem;
+}
+
+/*ICONS*/
+.icon__freddy {
+  padding: 3rem 5rem 0rem 3rem;
+}
+
+.icon__billy {
+  padding: 4.5rem 5rem 0rem 2rem;
+}
+
+.icon__chucky {
+  padding: 3.7rem 5rem 0rem 1rem;
+}
+
+.icon__candyman {
+  padding: 3.7rem 6rem 0rem 2.5rem;
+}
+
+.icon__frankenst {
+  padding: 2rem 6rem 0rem 2.5rem;
+}
+
+.icon__jason {
+  padding: 3rem 8rem 0rem 1rem;
+}
+
+.icon__twisty {
+  padding: 1rem 8rem 0rem 1rem;
+}
+
+.icon__bloodym {
+  padding: 1rem 5rem 0rem 4.4rem;
+}
+
+.icon__leatherf {
+  padding: 3.5rem 8rem 0rem 2rem;
+}
+
+.icon__scarecrow {
+  padding: 3.5rem 8rem 0rem 2rem;
+}
+
+.icon__hannibal {
+  padding: 3rem 8rem 0rem 1rem;
+}
