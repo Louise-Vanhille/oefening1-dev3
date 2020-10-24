@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: "Open Sans", Arial, sans-serif;
+  font-family: Arial, sans-serif;
   min-height: 100vh;
   background-color: black;
 }
@@ -104,4 +104,19 @@ body {
 
 .icon__hannibal {
   padding: 3rem 8rem 0rem 1rem;
+}
+
+/*PATTERNS*/
+.patterns {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: auto;
+  opacity: 0;
+}
+
+.patterns:hover{
+  opacity: 1;
+  cursor: pointer;
 }
